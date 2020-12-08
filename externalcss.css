@@ -17,3 +17,31 @@ table{
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+li{
+    color: royalblue;
+}
+
+th{
+    color: red;
+}
+
+td.name{
+    color: greenyellow;
+}
+
+#heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div>ol>li{
+    font-style: italic;
+}
+
+td li {
+    color: grey;
+}
+
+h1+p{
+    color: indigo;
+}
