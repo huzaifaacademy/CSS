@@ -2,21 +2,28 @@
 <html lang="en">
 <head>
     <title>CSS</title>
-    <link rel="stylesheet" href="./externalcss.css" type="text/css">
+   <!-- <link rel="stylesheet" href="./externalcss.css" type="text/css">-->
+    <style>
+        body{
+            color: royalblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #th{
+            color: orangered;
+        }
+        h1,h1+p{
+            font: bold;
+            color: orangered;
+            text-align: center;
+        }    
+    </style>
 </head>
-<body>
-    <h1 id="heading">My name is Huzaifa</h1>
-    <p>This is my web page</p>
-    <div class="fruits_name">
-        <ol>
-            <li>Mango</li>
-            <li>Orange</li>
-            <li>Apple</li>
-        </ol>
-    </div>
+<body style="background-color: lightgreen;">
+    <h1 id="heading">WELCOME TO THE WORLD OF SOFTWARE</h1>
+    <p >DEVELOPER: HUZAIFA</p>
     <p>
-    <table border="1" width="800">
-        <tr>
+    <table border="1" width="800" style="background-color: pink;" align="center">
+        <tr id="th">
             <th>S.No</th>
             <th>Name</th>
             <th>Course</th>

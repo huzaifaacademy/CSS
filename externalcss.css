@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: lightgreen;
 }
 
 h1,h2{
@@ -27,7 +27,7 @@ th{
 }
 
 td.name{
-    color: greenyellow;
+    color: rgb(255, 141, 47);
 }
 
 #heading{
@@ -44,4 +44,8 @@ td li {
 
 h1+p{
     color: indigo;
+}
+
+* {
+    color: yellow;
 }
